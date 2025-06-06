@@ -1,0 +1,6 @@
+preco = float(input('O valor do produto é: '))
+avista = preco - (preco * 10 / 100)
+parcelado = preco + (preco * 10 / 100)
+print('O preço do produto é R${:.2f}'.format(preco))
+print('Pagando à vista, o valor do produto cai para -10%, ficando R${:.2f} '.format(avista))
+print('Pagando parcelado, o valor do produto almenta para +10%, ficando R${:.2f}'.format(parcelado))
