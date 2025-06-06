@@ -6,6 +6,7 @@ if salario > 1251:
 else:
     print('O salario de R${}\nTeve um almento de 15%, ficando no valor de R${:.2F}'.format(salario, aumento2))'''
 
+
 salário = float(input('Qual é o salário do funcionário? R$'))
 if salário <= 1250:
     novo = salário + (salário * 15 / 100)
