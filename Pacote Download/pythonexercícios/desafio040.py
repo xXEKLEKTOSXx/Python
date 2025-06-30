@@ -1,10 +1,10 @@
-nota1 = float(input('Digite a primeira nota: '))
-nota2 = float(input('Digite a segunda nota: '))
-media = (nota1 + nota2) / 2
-print('A média foi {}'.format(media))
-if media < 5.0:
-    print('REPROVADO')
-elif media == 5.0 or media == 6.9:
-    print('RECUPERAÇÃO')
-elif media >= 7.0:
-    print('APROVADO')
+nota1 = float(input('Primeira nota: '))
+nota2 = float(input('Segunda nota: '))
+média = (nota1 + nota2) / 2
+print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(nota1, nota2, média))
+if 7 > média >= 5:
+    print('O aluno está em RECUPERAÇÃO.')
+elif média < 5: 
+    print('O aluno está REPROVADO.')
+elif média >= 7:
+    print('O aluno está APROVADO.')
