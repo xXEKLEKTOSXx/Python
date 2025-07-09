@@ -1,5 +1,3 @@
-for c in range(0, 10):
-n1 = int(input('Digite um número de 0 a 10: '))
-for c in range(0, n1 * 1):
-    print(c)
-print('FIM')
+num = int(input('Digite um número para ver sua tabuada: '))
+for c in range(1, 11):
+    print('{} x {:2} = {}'.format(num, c, num*c))
